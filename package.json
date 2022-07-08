@@ -1,6 +1,7 @@
 {
 	"name": "colecistecomia-puntaje",
-    "contributors": ["Criss Diaz", "Diego Hernandez", "Aldape Mora"],
+    "author": "Criss Diaz",
+    "contributors": ["Diego Hernandez", "Aldape Mora"],
     "version": "1.0.0",
     "repository": {
         "type": "git",
