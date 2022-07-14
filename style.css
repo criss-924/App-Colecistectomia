@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;400;500&display=swap');
+
+body {
+    background: white;
+    font-family: 'Kantumruy Pro', sans-serif;
+    margin: 0;
+}
+
+.logo-imagen {
+   max-width: 300px;
+   max-height: 100px;
+   margin: 2em;
+}
+
+.menucontainer {
+    background-color: #011547;
+    color: white;
+    font-size: medium;
+    display:flex ;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: -1;
+    padding: 1.5em;
+}
+
+li.menu {
+     display: inline;
+     float: center;
+     margin-left: 2.5em;   
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 200, 255);
+}
+
+#submenu {
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.linea {
+    width: 90%;
+    background-color: rgb(0, 200, 255);
+    height: 3px;
+    margin-left: 2.5em;
+    position: absolute;
+}
+
+h1, h2, p {
+    text-align: center;
+    text-justify: distribute;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0 10px #2F52AF;
+    max-width: 700px;
+	min-width: 700px;
+	margin-left: 4em;
+    margin-top: 3em;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bodycontainer {
+    padding: 5em;
+}
+
+.surgery, .statistics, .cancer {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0 10px #2F52AF;
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    left: 5%;
+    margin-right: 2em;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.bloque-boton1, .bloque-boton2, .bloque-boton3  {
+    max-width: 300px;
+   max-height: 300px;
+    margin: auto;
+}
+
+.bloque-boton2, .bloque-boton3 {
+    margin-left: 2em;
+}
+
+.score {
+    padding: 2rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul, li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+ul, li, label.pregunta {
+    cursor: pointer;
+}
+
+button {
+    background-color: #011547;
+    color: white;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: large;
+    cursor: pointer;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+button:hover {
+    background-color: #002989;
+}
+
+ .result {
+    margin-left: 13em;
+    margin-top: -14em;
+    font-size: 30px;
+ }
+
+ .imagenes-guia {
+    margin-left: 50em;
+    margin-top: 4em;
+    display: flex;
+ } 
+
+ .imagen1, .imagen2 {
+    margin-right: 2em;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown1:hover, .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /*FOOTER*/
+  #footer {
+    background-color: #011547;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-left: 4em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    justify-content: space-around;
+}
+
+.icons, .icons2, .contenedor-descargas {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+/*FORM*/
+
+form {
+    width: 60;
+	max-width: 600px;
+	min-width: 300px;
+	margin: auto;
+  padding: 2em;
+  font-size: 20px;
+}
+
+input,
+textarea, select {
+  margin: 10px 0 0 0;
+    width: 100%;
+  min-height: 2em;
+}
+
+label.form {
+    display: block;
+      margin: 1em;
+  }
+
+input.inline, input.answer {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align:bottom ;
+    
+}
+
+div.info {
+    padding-top: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: justify ;
+    margin-top: 10em;
+}
+
+a.info {
+    color: black;
+}
+
+
+/*dropdown imagenes*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+  }
